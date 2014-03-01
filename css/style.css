@@ -1,0 +1,460 @@
+@font-face {
+  font-family: 'GeneralEnclosedFoundicons';
+  src: url('GeneralEnclosed_foundicons.eot');
+  src: url('fonts/GeneralEnclosed_foundicons_foundicons.eot?#iefix') format('embedded-opentype'),
+       url('fonts/GeneralEnclosed_foundicons_foundicons.woff') format('woff'),
+       url('fonts/GeneralEnclosed_foundicons_foundicons.ttf') format('truetype'),
+       url('fonts/GeneralEnclosed_foundicons.svg#general_GeneralEnclosedFoundicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.foundicon-heart:before {
+content: "\f001";
+}
+.foundicon-cart:before {
+content: "\f024";
+}
+.foundicon-smiley:before {
+content: "\f02d";
+}
+.foundicon-idea:before {
+content: "\f022";
+}
+.foundicon-location:before {
+content: "\f028";
+}
+.foundicon-mail:before {
+content: "\f007";
+}
+.topicPath .foundicon-home:before {
+content: "\f00c";
+font-size: 20px;
+height: 25px;
+}
+
+.gen-enclosed{
+  font-size: 40px;
+  margin: 0 15px 0 10px;
+}
+#album .navSide .gen-enclosed{
+  font-size: 35px;
+}
+#container .right .topicPath .gen-enclosed{
+  font-size: 15px;
+  height: 30px;
+}
+[class*="foundicon-"] {
+display: inline;
+width: auto;
+height: auto;
+line-height: inherit;
+vertical-align: baseline;
+background-image: none;
+background-position: 0 0;
+background-repeat: repeat;
+}
+[class*="gen-enclosed foundicon-"]:before {
+font-family: "GeneralEnclosedFoundicons";
+}
+[class*="foundicon-"]:before {
+font-weight: normal;
+font-style: normal;
+text-decoration: inherit;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:url('../fonts/icomoon/icomoon.eot');
+  src:url('../fonts/icomoon/icomoon.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon/icomoon.woff') format('woff'),
+    url('../fonts/icomoon/icomoon.ttf') format('truetype'),
+    url('../fonts/icomoon/icomoon.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.icon-star-2:before {
+content: "\e00c";
+}
+.icon-cart:before {
+  content: "\e007";
+}
+.btn:after {
+content: '';
+}
+.icon-arrow-right:before {
+content: "\e00d";
+}
+.btn:after {
+content: '';
+}
+@charset "utf-8";
+
+html,body,h1,h2,h3,h4,h5,p,dl,dt,dd,ul,ol,li,table,textarea,iframe,form,pre {
+  margin:0;
+  padding:0;
+  font-size:100%;
+}
+a{
+  color: #000;
+}
+li{
+  list-style-type: none;
+}
+body{
+  font-family: 'Hiragino Kaku Gothic ProN', Meiryo, 'MS PGothic', Sans-serif;
+  line-height: 1.5;
+  font-weight: normal;
+  font-size: 14px;
+  -webkit-text-size-adjust: 100%;
+  position: relative;
+}
+.flo-l{
+  float: left;
+}
+.flo-r{
+  float: right;
+}
+header{
+  height: 8px;
+  overflow: hidden;
+  background:url("../images/header_boder.png") repeat-x;
+}
+header .headerLogo{
+  height: 8px;
+  background: repeat-x;
+  margin: auto;
+}
+.main{
+  width: 980px;
+  overflow: hidden;
+  margin: auto auto 50px;
+}
+#container{
+  overflow: hidden;
+  background:  #FCF8E4;
+  position: relative;
+}
+#container nav{
+  height: 50px;
+  width: 100%;
+  overflow: hidden;
+  background: #FEBF54;
+}
+#container nav .box{
+  width: 980px;
+  height: 50px;
+  margin: 0 auto;
+  z-index: 2;
+  text-align: right;
+  font-size: 13px;
+} 
+#container nav .box p{
+  width: 8em;
+  padding: 0 0 0 45px;
+  line-height: 1em;
+}
+#container nav button{
+  height: 100%;
+  text-align: center;
+  margin-left: 20px;
+}
+#container .main .right{
+  width: 730px;
+  margin-left: 20px;
+  float: right;
+}
+#container .main .right .button{
+  width: 100%;
+  margin: 20px 0 10px 0;
+  overflow: hidden;
+}
+#container .main .right button{
+  text-decoration: none;
+  width: 350px;
+  height:44px;
+  text-align: center;
+}
+#container .main .right #album .navSide{
+  padding: 15px 5px 5px 5px;
+}
+#container .main .right #album .navSide i{
+  margin-top: 4px;
+}
+#container .main .right #album .navSide .navBox{
+   margin: 17px 0 0 0;
+  line-height: 15px;
+}
+#container .main .right .topicPath{
+  width: 100%;
+  height: 30px;
+  overflow: hidden;
+}
+#container .main .right .topicPath ol li{
+ display: inline;
+ width: 40px;
+}
+#container .main .right .topicPath ol li i{
+  margin: -5px 5px 0 10px;
+}
+#container .main .right .topicPath ol li:before{
+  content: ">";
+  margin-right: 5px;
+}
+#container .main .right .topicPath ol li:first-child:before {
+  content: none;
+}
+#container .main .right #album{
+  width: 726px;
+  height: auto;
+  background: white;
+  overflow: hidden;
+  border: solid 2px #FF8B0D;
+  border-radius: 10px;
+}
+
+#container .main .right #album .title{
+  font-size: 14px;
+  color: #240505;
+  letter-spacing: 0.1em;
+}
+#container .main .right #album .subTitle{
+  font-size: 12px;
+  color:#F39C12;
+}
+#container .main .right #album .picAlbum{
+  margin: 12px;
+  clear: left;
+}
+#container .main .right #album .picAlbum .wrapper{
+  height: auto;
+  overflow: hidden;
+}
+#container .main .right #album .picAlbum .outer{
+  border-bottom: #868686 dotted 2px;
+  margin: 0 auto;
+}
+#container .main .right #album .picAlbum .inner{
+  overflow: hidden;
+  margin : 0 auto;
+  height: 35px;
+  width: 680px; 
+}
+#container .main .right #album .picAlbum .title{
+  font-size: 19px;
+  padding: 2px 0 0 5px;
+  letter-spacing: 0.005em;
+}
+#container .main .right #album .picAlbum .title .index_album{
+  margin-left: 10px;
+}
+#container .main .right #album .picAlbum .title span{
+  font-size: 13px;
+}
+#container .main .right #album .picAlbum .all{
+  font-size: 13px;
+  color: #483FAA;
+  font-weight: bold;
+  margin-top: 10px;
+}
+#container .main .right #album .picAlbum .wrapper .body_no1{
+  height: auto;
+  overflow: hidden;
+  margin-left: 12px;
+}
+#container .main .right #album .picAlbum .body_no1 .photo{
+   width: 155px;
+  height: 255px;
+  margin: 10px 12px 0 0;
+  overflow: hidden;
+  display: inline-block;
+  text-align: center;
+}
+#container .main .right #album .picAlbum .body_no1 .photo .photo_img{
+  background: url("../images/photos_bg.png") no-repeat;
+  padding: 18px 20px 20px 18px;
+}
+#container .main .right #album .picAlbum .body_no1 .photo .type{
+  width: 140px;
+  overflow: hidden;
+  height: 65px;
+  margin: 0 auto; 
+  text-align: left;
+}
+#container .main .right #album .picAlbum .wrapper .body_no1 .photo .type .flag{
+  float: left;
+  width: 18px;
+  margin-left: 20px;
+}
+#container .main .right #album .picAlbum .wrapper .body_no1 .photo .type p{
+  margin: 0;
+  max-width: 120px;
+  text-align: left;
+  border-bottom: 1px dotted #868686;
+  display: inline;
+}
+#container .main .right #album .picAlbum .wrapper .body_no1 .photo .date{
+  margin-top: 5px;
+  color: #949494;
+}
+#container .main .right #album .picAlbum .body_no2{
+  height: auto;
+  overflow: hidden;
+  margin: 10px 0 26px 5px;
+}
+#container .main .right #album .picAlbum .body_no2 .line{
+  display: inline-block;
+  margin: 5px auto 0;
+}
+#container .main .right #album .picAlbum .body_no2 .line .photo_img{
+  margin: 0 6px 0 0;
+  border: solid 4px #FFEFC7;
+  border-radius: 10px;
+   -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+#container .main .right #album .picAlbum .body_no2 .line .photo_img:hover{
+  border: solid 4px #F7B551;
+}
+#container .main .left{
+  float: right;
+  overflow: hidden;
+  margin: 0;
+  height: auto;
+  width: 230px;
+  background: white;
+  font-weight: bold;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+}
+#container .main .left h1{
+  border-bottom: #A7A7A7 dotted 2px;
+  height: 165px;
+}
+#container .main .left h1 .logo{
+  margin: 35px 15px;
+}
+#container .main .left .main_nav{
+  height: auto;
+  width: 100%;
+}
+#container .main .left .main_nav li,#container .main .right #album .navSide{
+  height: 60px;
+  overflow: hidden;
+  font-weight: bold;
+} 
+#container .main .left .main_nav li{
+  background: url("../images/navi_side.png") no-repeat 0 50%;
+  border-bottom: #A7A7A7 dotted 2px;
+}
+#container .main .left .main_nav .story:hover{
+  background: #ddd url("../images/navi_side_story_hover.png") no-repeat 0 50%;
+}
+#container .main .left .main_nav .point:hover{
+  background: #ddd url("../images/navi_side_point_hover.png") no-repeat 0 50%;
+}
+#container .main .left .main_nav .mypage:hover{
+  background: #ddd url("../images/navi_side_mypage_hover.png") no-repeat 0 50%;
+}
+#container .main .left .main_nav .faq:hover{
+  background: #ddd url("../images/navi_side_faq_hover.png") no-repeat 0 50%;
+}
+#container .main .left .main_nav .company:hover{
+  background: #ddd url("../images/navi_side_company_hover.png") no-repeat 0 50%;
+}
+#container .main .left .main_nav .contact:hover{
+  background: #ddd url("../images/navi_side_contact_hover.png") no-repeat 0 50%;
+}
+#container .main .left .main_nav .navBox{
+  margin: 14px 0 0 0;
+  line-height: 18px;
+} 
+#container .main .left .main_nav .title{
+  font-size: 14px;
+  color: #240505;
+}
+#container .main .left .main_nav .story .title{
+  letter-spacing: 0.1em;
+}
+#container .main .left .main_nav .point .title{
+  letter-spacing: 0.2em;
+}
+#container .main .left .main_nav .mypage .title{
+  letter-spacing: 0.3em;
+}
+#container .main .left .main_nav .faq .title{
+  letter-spacing: 0.1em;
+}
+#container .main .left .main_nav .company .title{
+  letter-spacing: 0.7em;
+}
+#container .main .left .main_nav .contact .title{
+  letter-spacing: 0.3em;
+}
+#container .main .left .main_nav .subTitle{
+  font-size: 12px;
+}
+#container .main .left .main_nav .story .subTitle,
+.foundicon-heart:before{
+  color:#F39C12;
+}
+#container .main .left .main_nav .point .subTitle,
+.foundicon-cart:before{
+  color:#A662C2;
+}
+#container .main .left .main_nav .mypage .subTitle,
+.foundicon-smiley:before{
+  color:#3498DB;
+}
+#container .main .left .main_nav .faq .subTitle,
+.foundicon-idea:before{
+  color:#F35BB4;
+}
+#container .main .left .main_nav .company .subTitle,
+.foundicon-location:before{
+  color:#F85858;
+}
+#container .main .left .main_nav .contact .subTitle,
+.foundicon-mail:before{
+  color:#2ECC71;
+}
+#container .main .left .sub_nav{
+  height: auto;
+  margin-top: 10px;
+}
+#container .main .left .sub_nav li{
+  font-size: 11px;
+  background: url("../images/navi_side.png") no-repeat 0 50%;
+  width: 100%;
+  height: 15px;
+  padding: 10px 20px;
+}
+#container .main .left .sub_nav li:hover{
+  background: #ddd url("../images/navi_side.png") no-repeat 0 50%;
+}
+footer{
+  height: 167px;
+  color: white;
+  overflow: hidden;
+  background: #666666;
+}
+footer .footerPic{
+  height: 57px;
+  width: 100%;  
+  background:  #FCF8E4;
+  text-align: center;
+}
+footer img{
+  width: 957px;
+  margin: auto;
+}
+footer .box{
+  margin: auto;
+  width: 980px;
+  height: 110px;
+  text-align: center;
+  padding-top: 40px;
+}

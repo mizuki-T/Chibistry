@@ -5,7 +5,12 @@
 	<meta name="Keywords" content="ちびすとりー、保育園、写真、動画"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>ちびすとりー</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/general_enclosed_foundicons_ie7.css" type="text/css">
+	<link rel="stylesheet" href="css/general_enclosed_foundicons.css" type="text/css">
+	<!-- <link rel="stylesheet" href="css/default.css" type="text/css"> -->
+	<link rel="stylesheet" href="css/component.css" type="text/css">
+	<script type="text/javascript" src="javascript/fileName.js"></script>
 </head>
 
 <body>
@@ -14,108 +19,189 @@
 			<div class="headerLogo">
 
 			</div>
-			<nav>
-				<ul>
-
-					<li class="point flo-r">現在のポイント０　PT</li>
-					<li class="luida flo-r">LIUDA保育園バラ組</li> 
-					 
-				</ul><!--button -->
-			</nav><!--nav-->
+			
 		</div><!-- main-->
 	</header>
 	<div id="container">
-		<div class="main">
+		<nav>
+			<div class="box">
+				<button class="btn btn-3 btn-3b icon-cart flo-r">
+					<p>現在のポイント０PT<p></button>
+				<button class="btn btn-3 btn-3b icon-star-2 flo-r">
+					<p>LIUDA保育園<br>バラ組</p></button> 
+			</div>	 
 			
-			<div class="contents flo-r">
+		</nav><!--nav-->
+		<div class="main">
+			<div class="right">
 				<div class="button">
-					<ul>
-						<li class="picAlbum flo-l">アルバム別写真・動画で探す</li
+					
+						<button class="btn btn-3 btn-3e icon-arrow-right flo-l">アルバム別写真・動画で探す</button
 						>
-						<li class="picNew flo-r">最新投稿の動画を探す</li
+						<button class="btn btn-3 btn-3e icon-arrow-right flo-r">最新投稿の写真・動画を探す</button
 						>
-					</ul>
+					
 				</div><!--button -->
-				<div class"topicPath">
-					<ul>
-						<li>HOME</li>
-						<li>A</li>
-						<li>B</li>
-					</ul>
+				<div class="topicPath">
+					<ol>
+						<li class="item"><i class="gen-enclosed foundicon-home flo-l"></i>HOME</li>
+						<li class="item">A</li>
+						<li class="item">B</li>
+					</ol>
 				</div><!-- topicPath-->
 				<div id="album">
 						<div class="navSide">
-							<p class="title">写真・動画を探す</p>
-							<p class="subTitle">STORY</p>
+							<i class="gen-enclosed foundicon-heart flo-l"></i>
+							<div class="navBox flo-l">
+								<p class="title">写真・動画を探す</p>
+								<p class="subTitle">STORY</p>
+							</div>
 						</div><!--navSide -->
 						<div class="picAlbum">
 							<div class="wrapper">
-								<div class="title">
-									<img src="images/index_album.png" class="index_album flo-l">
-									<h2 class="title flo-l">アルバム別の写真・動画<span>(最新4件)</span></h2>
-									<p class="all flo-r">すべてを表示する</p>
-								</div>
-								<div class="body">
+								<div class="outer">
+									<div class="inner">
+										<img src="images/index_album.png" class="index_album flo-l">
+										<h2 class="title flo-l">アルバム別の写真・動画<span>(最新4件)</span></h2>
+										<p class="all flo-r">すべてを表示する</p>
+									</div>
+								</div><!-- outer-->
+								<div class="body_no1">
+									<div class="photo no1">
+										<img src="images/no-image.png" class="photo_img" width="120" height="78">
+										<div class="type">
+											<img src="images/flag.png" class="flag">
+											<p class="file_name">動画用動画用動画用動画用動画用動画用動画用動画用動画用動画用</p>
+										</div>
+										<p class="date">01月09日更新22枚</p>
+									</div><!--photo -->
+									<div class="photo no2">
+										<img src="images/no-image.png" class="photo_img" width="120" height="78">
+										<div class="type">
+											<img src="images/flag.png" class="flag">
+											<p class="file_name">動画用動画用動画用動画用動画用動画用動画用動画用動画用動画用</p>
+										</div>
+										<p class="date">01月09日更新22枚</p>
+									</div><!--photo -->
+
+									<div class="photo no3">
+										<img src="images/no-image.png" class="photo_img" width="120" height="78">
+										<div class="type">
+											<img src="images/flag.png" class="flag">
+											<p class="file_name">あいうえお</p>
+										</div>
+										<p class="date">01月09日更新22枚</p>
+									</div><!--photo -->
+
+									<div class="photo no4">
+										<img src="images/no-image.png" class="photo_img" width="120" height="78">
+										<div class="type">
+											<img src="images/flag.png" class="flag">
+											<p class="file_name">平みずき</p>
+										</div>
+										<p class="date">01月09日更新22枚</p>
+									</div><!--photo -->
 								</div>
 							</div>
 						</div>
-						<div class="picNew">
+						<div class="picAlbum">
 							<div class="wrapper">
-								<div class="title">
-									<img src="images/index_date.png" class="index_date flo-l">
-									<h2 class="title flo-l">最新の写真・動画<span>(最新15件)</span></h2>
-									<p class="all flo-r">すべてを表示する</p>
-								</div>
-								<div class="body">
+								<div class="outer">
+									<div class="inner">
+										<img src="images/index_date.png" class="index_date flo-l">
+										<h2 class="title flo-l">最新の写真・動画<span>(最新15件)</span></h2>
+										<p class="all flo-r">すべてを表示する</p>
+									</div>
+								</div><!-- outer-->
+								<div class="body_no2">
+									<div class="line">
+										<img src="images/no-image.png" class="photo_img" width="120" height="78">
+										<img src="images/no-image.png" class="photo_img" width="120" height="78">
+										<img src="images/no-image.png" class="photo_img" width="120" height="78">
+										<img src="images/no-image.png" class="photo_img" width="120" height="78">
+										<img src="images/no-image.png" class="photo_img" width="120" height="78">
+										
+									</div>
+									<div class="line">
+										<img src="images/no-image.png" class="photo_img" width="120" height="78">
+										<img src="images/no-image.png" class="photo_img" width="120" height="78">
+										<img src="images/no-image.png" class="photo_img" width="120" height="78">
+										<img src="images/no-image.png" class="photo_img" width="120" height="78">
+										<img src="images/no-image.png" class="photo_img" width="120" height="78">
+																			</div>
+									<div class="line">
+										<img src="images/no-image.png" class="photo_img" width="120" height="78">
+										<img src="images/no-image.png" class="photo_img" width="120" height="78">
+										<img src="images/no-image.png" class="photo_img" width="120" height="78">
+										<img src="images/no-image.png" class="photo_img" width="120" height="78">
+										<img src="images/no-image.png" class="photo_img" width="120" height="78">
+									
+									</div>
 								</div>
 							</div>
 						</div>
 				</div><!--album -->
-			</div><!--contents -->
+			</div><!--right -->
 
-			<div class="Sider_nav　flo-r" style="width: 230px;">
-				<h1><img src="images/logo.png" height="90" width="220px" class="logo"></h1>
-				<ul>
-						
-						<li class="story">
-							<i class="gen-enclosed foundicon-heart flo-l"></i>
-							<p class="title flo-l">写真・動画を探す</p>
-							<p class="subTitle flo-l">STORY</p>
-						</li>
-						<li　class="point">
-							<i class="gen-enclosed foundicon-cart flo-l"></i>
-							<p class="title flo-l">ポイント情報</p>
-							<p class="subTitle flo-l">POINT</p>
-						</li>
-						<li class="mypage">
-							<i class="gen-enclosed foundicon-smiley flo-l"></i>
-							<p class="title flo-l">マイページ</p>
-							<p class="subTitle flo-l">MYPAGE</p>
-						</li>
-						<li class="faq">
-							<i class="gen-enclosed foundicon-idea flo-l"></i>
-							<p class="title flo-l">よくあるご質問</p>
-							<p class="subTitle flo-l">FAQ</p>
-						</li>
-						<li class="company">
-							<i class="gen-enclosed foundicon-lication flo-l"></i>
-							<p class="title flo-l">運営情報</p>
-							<p class="subTitle flo-l">COMPANY</p>
-						</li>
-						<li class="contact">
-							<i class="gen-enclosed foundicon-mail flo-l"></i>
-							<p class="title flo-l">お問い合わせ</p>
-							<p class="subTitle flo-l">CONTACT</p>
-						</li>
-				</ul>
-				<ul>
-						<li class="nav_under">プライバシーポリシー</li>
-						<li class="nav_under">コンテンツ価格とポイント消費</li>
-						<li class="nav_under">特定商取引法に基づく表示</li>
-						<li class="nav_under">利用規約</li>
-						<li class="nav_under">ログアウト</li>
-				</ul>
-			</div><!--navSide -->
+			<div class="left">
+					<h1><img src="images/logo.png" height="90" width="200px" class="logo"></h1>
+					<div class="main_nav">
+						<ul>
+							
+							<li class="story">
+								<i class="gen-enclosed foundicon-heart flo-l"></i>
+								<div class="navBox flo-l">
+									<p class="title">写真・動画を探す</p>
+									<p class="subTitle">STORY</p>
+								</div>
+							</li>
+							<li class="point">
+								<i class="gen-enclosed foundicon-cart flo-l"></i>
+								<div class="navBox flo-l">
+									<p class="title">ポイント情報</p>
+									<p class="subTitle">POINT</p>
+								</div>
+							</li>
+							<li class="mypage">
+								<i class="gen-enclosed foundicon-smiley flo-l"></i>
+								<div class="navBox flo-l">
+									<p class="title">マイページ</p>
+									<p class="subTitle">MYPAGE</p>
+								</div>
+							</li>
+							<li class="faq">
+								<i class="gen-enclosed foundicon-idea flo-l"></i>
+								<div class="navBox flo-l">
+									<p class="title">よくあるご質問</p>
+									<p class="subTitle">FAQ</p>
+								</div>	
+							</li>
+							<li class="company">
+								<i class="gen-enclosed foundicon-location flo-l"></i>
+								<div class="navBox flo-l">
+									<p class="title">運営情報</p>
+									<p class="subTitle">COMPANY</p>
+								</div>
+							</li>
+							<li class="contact">
+								<i class="gen-enclosed foundicon-mail flo-l"></i>
+								<div class="navBox flo-l">
+									<p class="title">お問合わせ</p>
+									<p class="subTitle">CONTACT</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="sub_nav">
+						<ul>
+								<li class="nav_under">プライバシーポリシー</li>
+								<li class="nav_under">コンテンツ価格とポイント消費</li>
+								<li class="nav_under">特定商取引法に基づく表示</li>
+								<li class="nav_under">利用規約</li>
+								<li class="nav_under">ログアウト</li> 
+						</ul>
+					</div>
+			</div><!--left -->
 		</div><!--main -->
 	</div><!-- container-->
 
@@ -130,4 +216,7 @@
 
 	</footer>	
 </body>
+<script type="text/javascript">
+cutStringByTagNameAndClassName('p', 'file_name', 22);
+</script>
 </html>
